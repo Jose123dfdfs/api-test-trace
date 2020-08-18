@@ -8,7 +8,7 @@ const port = 8080
 app.use(express.json());
 
 sequelize.authenticate().then(() => {
-    console.log('Connection has been established successfully.');
+    console.log('Connection ha been established successfully.');
 }).catch(err => {
     console.error('Unable to connect to the database:', err);
 });
